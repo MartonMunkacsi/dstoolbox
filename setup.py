@@ -13,7 +13,7 @@ setup(
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=['pandas', 'numpy'], # add any additional packages that 
+        install_requires=['pandas', 'numpy', 'spacy', 'scikit-learn'], # add any additional packages that 
         # needs to be installed along with your package. Eg: 'caer'
         
         keywords=['python', 'data science', 'toolbox', 'preprocessing', 'data exploration'],
