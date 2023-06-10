@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 import os
-import sys
 
 VERSION = '0.0.1' 
 DESCRIPTION = 'A toolbox for Data Science.'
@@ -26,5 +25,4 @@ setup(
 )
 
 # Download en_core_web_sm model
-if 'install' in sys.argv:
-    os.system('python -m spacy download en_core_web_sm')
+os.system('python -m spacy download en_core_web_sm')
